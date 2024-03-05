@@ -20,7 +20,7 @@ let MCQS = [
     question: "Qu'est-ce que l'OWASP?",
     choice1: "Un type de routage dynamique",
     choice2:
-      "Une organisation mondiale à but non lucratif qui se concentre sur l’amélioration de la sécurité des logiciels.",
+      "Une organisation visant à améliorer la sécurité des logiciels.",
     choice3: "Un scanner de vulnérabilté",
     choice4: "Une organisation cyber criminelle d'enfants Soviétiques",
     answer: 1,
@@ -28,7 +28,7 @@ let MCQS = [
   {
     question: "Qu'est ce que l'ANSSI",
     choice1:
-      "L'autorité nationale en matière de sécurité et de défense des systèmes d'information.",
+      "L'autorité nationale en matière de sécurité et de défense des SI.",
     choice2: "Un protocole de communication",
     choice3: "La réponse C",
     choice4: "Un groupe de rock chrétien préchant la bonne parole",
@@ -55,7 +55,7 @@ let MCQS = [
     choice1: "Un serveur VPN",
     choice2: "Il crée des modules de supervision",
     choice3:
-      "Il élabore et promeut des standards Internet, en particulier les standards qui composent la suite de protocoles Internet (TCP/IP). ",
+      "Il élabore et promeut des standards Internet",
     choice4: "Il crée des trojans à but non-lucratif",
     answer: 3,
   },
@@ -63,9 +63,9 @@ let MCQS = [
     question: "C'est quoi le RFC 1918?",
     choice1: "Le club de foot du racing club de Strasbourg",
     choice2:
-      "Un document signé par le Général Pétin à la fin de la guerre 14-18",
+      "Un document signé par le maréchal Pétin à la fin de la guerre 14-18",
     choice3:
-      "un document technique publié par l'Internet Engineering Task Force (IETF) qui définit des plages d'adresses IP privées réservées à une utilisation interne dans les réseaux locaux.",
+      "un document technique qui définit des plages d'adresses IP privées réservées",
     choice4: "Une authentification à 2 facteurs",
     answer: 2,
   },
@@ -122,18 +122,18 @@ let MCQS = [
     answer: 1,
   },
   {
-    question: "Quel est le rôle d'un VLAN?",
+    question: "Qu'est-ce qu'un VLAN?",
     choice1:
-      "Un VLAN est un réseau logique isolé créé à partir d'un réseau physique pour organiser et sécuriser le trafic réseau.",
-    choice2: "Il s'occupe d'équilibrer les charges sur le réseau",
-    choice3: "Il sert à occuper Florent pendant ses soirées d'hiver",
-    choice4: "Il ouvre les port sur les firewall",
+      "Un réseau logique isolé créé à partir d'un réseau physique.",
+    choice2: "Un équilibreur de charges",
+    choice3: "La passion de Florent",
+    choice4: "Une base de données SQL",
     answer: 0,
   },
   {
     question: "Qu'est-ce que le SOA record?",
     choice1:
-      "Une entrée clé dans un fichier de zone DNS, fournissant des détails essentiels sur la gestion de la zone.",
+      "Une entrée fournissant des détails essentiels sur la gestion de la zone DNS.",
     choice2: "Un groupe de musique hippie sous acide dans les années 70",
     choice3:
       "Un type d'enregistrement DNS qui mappe un nom de domaine à une adresse IPv4.",
@@ -146,13 +146,13 @@ let MCQS = [
     choice2: "Un scanner de vulnérabilité",
     choice3: "Un protocole Web",
     choice4:
-      "LDAP est un protocole utilisé pour accéder et gérer des services d'annuaire informatique.",
+      "Un protocole utilisé pour accéder et gérer des services d'annuaire informatique.",
     answer: 3,
   },
   {
     question: "C'est quoi SMB?",
     choice1:
-      "Un protocole de partage de fichiers et d'imprimantes utilisé dans les réseaux informatiques.",
+      "Un protocole de partage de fichiers et d'imprimantes.",
     choice2: "Un type de serveur Web",
     choice3: "Salade, mayonnaise, barbecue",
     choice4: "Une marque de firewall",
@@ -196,7 +196,7 @@ let MCQS = [
   {
     question: "à quoi sert iSCSI?",
     choice1:
-      "Il permet de connecter des périphériques de stockage à distance à des serveurs via un réseau IP en utilisant le protocole SCSI sur IP.",
+      "Il permet de connecter des périphériques de stockage à distance à des serveurs via un réseau IP.",
     choice2: "Il met à jour les postes clients sur un réseau",
     choice3: "Il scanne les ports ouverts sur un réseau",
     choice4: "Il est imprononcable alors il ne sert sûrement pas à grand chose",
@@ -225,7 +225,7 @@ let MCQS = [
     choice2: "Une drogue de synthèse bolivienne",
     choice3: "Un périphérique de stockage",
     choice4:
-      "MDT (Microsoft Deployment Toolkit) est un ensemble d'outils pour le déploiement automatisé de systèmes d'exploitation Windows.",
+      "Un ensemble d'outils pour le déploiement automatisé de systèmes d'exploitation Windows.",
     answer: 3,
   },
   {
@@ -249,7 +249,7 @@ let MCQS = [
     choice1: "Une distribution Linux",
     choice2: "Un type de chiffrement",
     choice3:
-      "Un protocole de partage de fichiers réseau utilisé pour permettre le partage de ressources entre ordinateurs sur un réseau, principalement associé aux systèmes d'exploitation Windows.",
+      "Un protocole Windows de partage de fichiers réseau utilisé pour permettre le partage de ressources.",
     choice4: "Un composant de carte mère",
     answer: 2,
   },
@@ -268,14 +268,14 @@ let MCQS = [
     choice2: "Un outil de supervision des métriques",
     choice3: "Une extension de navigateur Web",
     choice4:
-      "Un protocole de journalisation système permettant la collecte et le transfert de messages de journalisation vers un serveur centralisé.",
+      "Un protocole de journalisation système.",
     answer: 3,
   },
   {
     question: "Qu'est-ce qu'un SOC?",
     choice1: "Un anti-virus",
     choice2:
-      "Un centre opérationnel chargé de surveiller et de gérer en temps réel la sécurité des systèmes informatiques, détectant et répondant aux menaces de sécurité éventuelles.",
+      "Un centre opérationnel chargé de surveiller et de gérer en temps réel la sécurité des SI",
     choice3: "Une solution de sauvegarde immuable",
     choice4: "Un type de pare-feu nouvelle génération",
     answer: 1,
@@ -284,7 +284,7 @@ let MCQS = [
     question: "C'est quoi un SAN?",
     choice1: "C'est l'èleve de Maitre Miagui dans Karaté kid",
     choice2:
-      "Un SAN est un réseau dédié pour le stockage de données, utilisant généralement des protocoles tels que Fibre Channel ou iSCSI.",
+      "Un SAN est un réseau dédié pour le stockage de données.",
     choice3: "Un protocole de mise en cache dans le navigateur",
     choice4: "Un language de programmation",
     answer: 1,
@@ -322,7 +322,7 @@ let MCQS = [
     choice2: "Un protocole de routage dynamique",
     choice3: "Un gestionnaire de mot de passe",
     choice4:
-      "Un ensemble de processus et de mesures visant à protéger les informations sensibles d'une organisation.",
+      "Un ensemble de mesures visant à protéger les informations sensibles d'une organisation.",
     answer: 3,
   },
   {
