@@ -19,8 +19,7 @@ let MCQS = [
   {
     question: "Qu'est-ce que l'OWASP?",
     choice1: "Un type de routage dynamique",
-    choice2:
-      "Une organisation visant à améliorer la sécurité des logiciels.",
+    choice2: "Une organisation visant à améliorer la sécurité des logiciels.",
     choice3: "Un scanner de vulnérabilté",
     choice4: "Une organisation cyber criminelle d'enfants Soviétiques",
     answer: 1,
@@ -54,8 +53,7 @@ let MCQS = [
     question: "Que fais l'IETF?",
     choice1: "Un serveur VPN",
     choice2: "Il crée des modules de supervision",
-    choice3:
-      "Il élabore et promeut des standards Internet",
+    choice3: "Il élabore et promeut des standards Internet",
     choice4: "Il crée des trojans à but non-lucratif",
     answer: 3,
   },
@@ -123,8 +121,7 @@ let MCQS = [
   },
   {
     question: "Qu'est-ce qu'un VLAN?",
-    choice1:
-      "Un réseau logique isolé créé à partir d'un réseau physique.",
+    choice1: "Un réseau logique isolé créé à partir d'un réseau physique.",
     choice2: "Un équilibreur de charges",
     choice3: "La passion de Florent",
     choice4: "Une base de données SQL",
@@ -151,8 +148,7 @@ let MCQS = [
   },
   {
     question: "C'est quoi SMB?",
-    choice1:
-      "Un protocole de partage de fichiers et d'imprimantes.",
+    choice1: "Un protocole de partage de fichiers et d'imprimantes.",
     choice2: "Un type de serveur Web",
     choice3: "Salade, mayonnaise, barbecue",
     choice4: "Une marque de firewall",
@@ -267,8 +263,7 @@ let MCQS = [
     choice1: "Un connecteur réseau",
     choice2: "Un outil de supervision des métriques",
     choice3: "Une extension de navigateur Web",
-    choice4:
-      "Un protocole de journalisation système.",
+    choice4: "Un protocole de journalisation système.",
     answer: 3,
   },
   {
@@ -283,8 +278,7 @@ let MCQS = [
   {
     question: "C'est quoi un SAN?",
     choice1: "C'est l'èleve de Maitre Miagui dans Karaté kid",
-    choice2:
-      "Un SAN est un réseau dédié pour le stockage de données.",
+    choice2: "Un SAN est un réseau dédié pour le stockage de données.",
     choice3: "Un protocole de mise en cache dans le navigateur",
     choice4: "Un language de programmation",
     answer: 1,
